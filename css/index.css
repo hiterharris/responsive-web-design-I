@@ -292,6 +292,8 @@ footer {
 }
 
 /* -- MEDIA QUERIES -- */
+
+ /* -- MOBILE MENU -- 
 @media only screen and (max-width: 600px) {
 	.service {
 	  width: 80%;
@@ -306,4 +308,65 @@ footer {
 		width: 50%;
 	}
 	
-  }
+  } */
+
+@media only screen and (max-width: 800px) {
+    
+    nav {
+        flex-direction: column-reverse;
+    }
+    
+    .nav-links a {
+        margin: 18px;
+    }
+
+    .logo-link {
+        margin: 5% 0%;
+    }
+
+    .hero {
+        margin-top: 15%;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .hero-title {
+        width: 58%;
+    }
+
+    .content-info {
+        width: 50%;
+        padding: 2%;
+    }
+
+    .content-info p {
+        font-size: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        position: relative;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-links a {
+        border-top: 1px solid white;
+        width: 100vw;
+        height: 73px;
+        margin: 0%;
+        text-align: center;
+        padding: 4%;
+    }
+
+    .hero-title {
+        width: 94%;
+    }
+}
