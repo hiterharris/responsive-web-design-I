@@ -343,7 +343,14 @@ footer {
 
     .content-info p {
         font-size: 18px;
+    }
 
+    .contact {
+        margin: 8% 0%;
+    }
+
+    .contact p {
+        margin: 5% 5%;
     }
 }
 
@@ -367,6 +374,19 @@ footer {
     }
 
     .hero-title {
-        width: 94%;
+        width: 78%;
+    }
+
+    .hero-title h1 {
+        font-size: 100px;
+    }
+
+    .content-top, .content-bottom {
+        display: block;
+    }
+
+    .content-info {
+        width: 100%;
+        margin: 12% 0%;
     }
 }
