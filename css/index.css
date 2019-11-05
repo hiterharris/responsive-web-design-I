@@ -292,24 +292,6 @@ footer {
 }
 
 /* -- MEDIA QUERIES -- */
-
- /* -- MOBILE MENU -- 
-@media only screen and (max-width: 600px) {
-	.service {
-	  width: 80%;
-	}
-
-	.nav-links {
-		display: none;
-	}
-
-	.mobile-menu {
-		display: flex;
-		width: 50%;
-	}
-	
-  } */
-
 @media only screen and (max-width: 800px) {
     
     nav {
